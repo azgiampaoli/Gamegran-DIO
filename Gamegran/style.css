@@ -1,0 +1,136 @@
+@font-face {
+    font-family: ModernWarface;
+    src: url('MODERNWARFARE.TTF');
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+}
+
+
+.flex-container{
+    max-width: 600px;
+    height: 500px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 10px rgb(99, 231, 46);  
+    border-style: ridge;  
+    margin-left: 350px;
+    margin-top: 50px;
+    
+}
+
+header h1{    
+    display: flex;
+    align-content: center;
+    text-align: center;    
+    margin-left: 5px;
+    
+    
+}
+.title{
+    font-family: ModernWarface;
+    color: rgb(7, 99, 160);
+    font-size: 16px;    
+    flex-direction: row;
+    align-items: center;
+    align-content: justify;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+
+#corpo{
+    display: flex;    
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 320px;
+    margin-left: 70px;
+
+}
+
+
+.aside{
+    display: flex;      
+    flex-direction: column;
+    width: min-content;
+    margin-top: -320px;
+    margin-right: 75px;
+    text-align: justify;
+    
+}
+.aside p{
+    text-align: center;    
+    margin-left: 15px;
+    
+    
+}
+
+.aside .logo{
+    font-family: ModernWarface;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #000;
+    color:  rgb(99, 231, 46);
+    font-size: 55px;
+}
+#email{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    justify-items: center;
+    margin-left: 100px;
+    
+}
+#password{
+    
+    justify-items: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+#botao{
+    margin-top: 35px;
+    border-radius: 10px;
+    width: 180px;
+    height: 25px;
+    background-color: rgb(7, 99, 160);
+    color: beige;
+    justify-items: center;
+    margin-left: 100px;   
+    
+}
+
+
+.discord a{
+    text-decoration: underline;
+    color: rgb(99, 231, 46);
+}
+
+.senha a{
+    text-decoration: underline;
+    color: rgb(99, 231, 46);
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 34px;
+    margin-bottom: 5px;
+    
+    
+}
+.footer .name{
+    font-family: ModernWarface;
+    color:  rgb(7, 99, 160);
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: rgb(99, 231, 46);
+}
